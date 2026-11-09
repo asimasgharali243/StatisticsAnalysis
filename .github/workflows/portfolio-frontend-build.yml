@@ -50,6 +50,8 @@ jobs:
           git add docs/screenshots/homepage-desktop.png docs/screenshots/homepage-mobile.png
           if ! git diff --cached --quiet; then
             git commit -m "docs: capture real frontend screenshots [skip ci]"
+            git fetch origin docs/portfolio-professionalization-2026
+            git rebase origin/docs/portfolio-professionalization-2026
             git push origin HEAD:docs/portfolio-professionalization-2026
           fi
       - name: Upload screenshot evidence
