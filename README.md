@@ -1,4 +1,10 @@
-# StatisticsAnalysis — Business Analytics Dashboard
+# Statistics & Business Analytics Dashboard | React, ASP.NET Core
+
+Business statistics and analytics dashboards with React/TypeScript visualizations, Redux state, and an ASP.NET Core backend. Demo and live data must be distinguished.
+
+**Explore this repository:** [Architecture](docs/ARCHITECTURE.md) · [Developer runbook](docs/RUNBOOK.md) · [Screenshot evidence guide](docs/SCREENSHOT_GUIDE.md) · [Audit](docs/PORTFOLIO_AUDIT.md)
+
+**Discoverability topics:** `statistics` · `analytics-dashboard` · `react` · `typescript` · `aspnet-core` · `data-visualization` · `recharts`. These are suggested GitHub repository topics, not a claim that the repository settings have been updated.
 
 > **Status:** Source-reviewed documentation draft. Runtime startup, end-to-end tests and screenshots have **not** been independently verified. Review PR before merging.
 
